@@ -1,0 +1,27 @@
+# Competition data — NEVER COMMIT
+data/
+dataset/
+datasets/
+raw_data/
+processed_data/
+
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# Generated competition artifacts
+transcripts/
+features/
+embeddings/
+predictions/
+submissions/
+
+# Model artifacts
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
